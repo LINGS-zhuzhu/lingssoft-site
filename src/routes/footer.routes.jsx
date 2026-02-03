@@ -46,7 +46,7 @@ export default {
           route: "/pages/company/solutions",
         },
         {
-          name: "└ AI DevOps",
+          name: "└ ECO AI DevOps",
           route: "/pages/items/devops",
         },
         {

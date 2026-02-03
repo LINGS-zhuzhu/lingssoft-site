@@ -67,12 +67,12 @@ const routes = [
         dropdown: true,
         collapse: [
           {
-            name: "All Products",
+            translationKey: "menu.all_products",
             route: "/pages/company/solutions",
             component: Solutions,
           },
           {
-            name: "AI DevOps",
+            translationKey: "menu.ai_devops",
             route: "/pages/items/devops",
             component: EcoAIDevOpsPlatform,
           },

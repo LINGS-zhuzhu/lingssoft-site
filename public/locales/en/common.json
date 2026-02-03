@@ -17,7 +17,9 @@
     "terms": "Terms of Use",
     "privacy": "Privacy Policy",
     "gdpr": "GDPR Policy",
-    "license": "Licenses (EULA)"
+    "license": "Licenses (EULA)",
+    "all_products": "All Products",
+    "ai_devops": "ECO AI DevOps"
   },
   "site": { "title": "LINGSSOFT" },
   "theme": {
