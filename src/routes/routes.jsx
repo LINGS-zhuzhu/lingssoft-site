@@ -55,6 +55,7 @@ const License = lazy(() => import("layouts/pages/support/license"));
 const CustomDev = lazy(() => import("layouts/pages/support/custom-development"));
 const Sponsorships = lazy(() => import("layouts/pages/support/sponsorships"));
 const EcoAIDevOpsPlatform = lazy(() => import("pages/Items/DevOps"));
+const EnterpriseSecuritySuite = lazy(() => import("pages/Items/Security"));
 
 const routes = [
   {
@@ -75,6 +76,11 @@ const routes = [
             translationKey: "menu.ai_devops",
             route: "/pages/items/devops",
             component: EcoAIDevOpsPlatform,
+          },
+          {
+            translationKey: "menu.security",
+            route: "/pages/items/security",
+            component: EnterpriseSecuritySuite,
           },
         ],
       },

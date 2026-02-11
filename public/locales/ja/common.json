@@ -19,7 +19,8 @@
     "gdpr": "GDPRポリシー",
     "license": "ライセンス",
     "all_products": "すべての製品",
-    "ai_devops": "ECO AI DevOps"
+    "ai_devops": "ECO AI DevOps",
+    "security": "エンタープライズセキュリティ"
   },
   "site": { "title": "LINGSSOFT" },
   "theme": {

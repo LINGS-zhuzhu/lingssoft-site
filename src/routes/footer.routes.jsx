@@ -50,6 +50,10 @@ export default {
           route: "/pages/items/devops",
         },
         {
+          translationKey: "menu.security",
+          route: "/pages/items/security",
+        },
+        {
           translationKey: "menu.pricing",
           route: "/pages/company/pricing",
         },
