@@ -18,22 +18,20 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import routes from "routes/routes";
 import footerRoutes from "routes/footer.routes";
 
+import { useThemeMode } from "context/ThemeModeContext";
+
 const EcoAIDevOpsPlatform = () => {
   const { t } = useTranslation('solutions');
+  const { mode } = useThemeMode();
+  const isDark = mode === "dark";
 
   return (
     <>
       <DefaultNavbar
         routes={routes}
-        action={{
-          type: "internal",
-          route: "/pages/support/contact-us",
-          label: "Contact Us",
-          color: "default",
-        }}
-        transparent
-        light
         sticky
+        light={isDark}
+        transparent={false}
       />
       <MKBox
         minHeight="75vh"
