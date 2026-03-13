@@ -6,6 +6,28 @@
     },
     "ai": {
         "title": "ECO AI DevOps アプライアンス",
+        "header": {
+            "slides": [
+                {
+                    "id": "energy",
+                    "label": "ECO 資源管理",
+                    "title": "エネルギー効率の新しい基準",
+                    "description": "最先端技術で電力消費を最小化し、デジタルカーボンニュートラルを実現します。"
+                },
+                {
+                    "id": "security",
+                    "label": "オンプレミス革新",
+                    "title": "完璧なセキュリティ環境",
+                    "description": "企業データを内部で徹底적으로 관리하고 확고한 정보 주권을 보장합니다."
+                },
+                {
+                    "id": "devops",
+                    "label": "AIベースのDevOps",
+                    "title": "開発生産性の最大化",
+                    "description": "複雑な運用をAIで自動化し、開発者が創造性に集中できるよう支援합니다."
+                }
+            ]
+        },
         "description": "持続可能なエネルギー効率とデータセキュリティを約束するオンプレミス特化型AIベースDevOpsソリューションです。",
         "features": [
             "エネルギー効率の最適化 - ECO 資源管理",

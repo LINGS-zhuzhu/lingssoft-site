@@ -6,6 +6,43 @@
     },
     "ai": {
         "title": "ECO AI DevOps 一体机",
+        "header": {
+            "slides": [
+                {
+                    "id": "energy",
+                    "label": "ECO 资源管理",
+                    "title": "能源效率的新标准",
+                    "description": "通过尖端技术实现功耗最小化，助力数字化碳中和。",
+                    "cards": [
+                        { "title": "优化分配", "description": "计算资源的智能分配" },
+                        { "title": "低功耗", "description": "降低运营成本" },
+                        { "title": "碳中和", "description": "支持可持续经营" }
+                    ]
+                },
+                {
+                    "id": "security",
+                    "label": "本地部署创新",
+                    "title": "完美的安权环境",
+                    "description": "在企业内部透彻管理数据，保障稳固的信息主权。",
+                    "cards": [
+                        { "title": "强化安全", "description": "完美的封闭环境" },
+                        { "title": "信息保护", "description": "防止核心资产外泄" },
+                        { "title": "掌控权", "description": "数据流转透明化" }
+                    ]
+                },
+                {
+                    "id": "devops",
+                    "label": "基于 AI 的 DevOps",
+                    "title": "开发生产力的极大化",
+                    "description": "通过 AI 自动化复杂运维，助力开发人员专注于创新。",
+                    "cards": [
+                        { "title": "自动化", "description": "缩短流水线构建" },
+                        { "title": "速度", "description": "加速交付周期" },
+                        { "title": "质量", "description": "稳定的业务运行" }
+                    ]
+                }
+            ]
+        },
         "description": "承诺可持续能源效率和数据安全的本地部署特化型 AI 驱动 DevOps 解决方案。",
         "features": [
             "能源效率优化 - ECO 资源管理",

@@ -7,6 +7,43 @@
     "ai": {
         "title": "ECO AI 데브옵스 어플라이언스",
         "description": "지속 가능한 에너지 효율과 데이터 보안을 약속하는 온프레미스 특화 AI 기반 데브옵스 솔루션입니다.",
+        "header": {
+            "slides": [
+                {
+                    "id": "energy",
+                    "label": "ECO 자원 관리",
+                    "title": "에너지 효율의 새로운 기준",
+                    "description": "최첨단 기술로 전력 소비를 최소화하고 디지털 탄소 중립을 실현합니다.",
+                    "cards": [
+                        { "title": "최적 배분", "description": "컴퓨팅 자원의 지능적 배분" },
+                        { "title": "저전력 운영", "description": "운영 비용 절감" },
+                        { "title": "탄소 중립", "description": "지속 가능한 경영 지원" }
+                    ]
+                },
+                {
+                    "id": "security",
+                    "label": "온프레미스 혁신",
+                    "title": "완벽한 보안 환경",
+                    "description": "기업의 데이터를 내부에서 철저히 관리하여 확고한 정보 주권을 보장합니다.",
+                    "cards": [
+                        { "title": "보안 강화", "description": "완벽한 폐쇄적 환경" },
+                        { "title": "정보 보호", "description": "핵심 자산 유출 방지" },
+                        { "title": "통제권", "description": "데이터 유통 투명성" }
+                    ]
+                },
+                {
+                    "id": "devops",
+                    "label": "AI 기반 데브옵스",
+                    "title": "개발 생산성의 극대화",
+                    "description": "복잡한 운영을 AI로 자동화하여 개발자가 창의성에 집중할 수 있게 돕습니다.",
+                    "cards": [
+                        { "title": "자동화", "description": "파이프라인 구축 단축" },
+                        { "title": "속도", "description": "배포 주기 가속화" },
+                        { "title": "품질", "description": "안정적인 서비스 운영" }
+                    ]
+                }
+            ]
+        },
         "features": [
             "에너지 효율 최적화 - ECO 자원 관리",
             "확고한 데이터 주권 - 온프레미스",

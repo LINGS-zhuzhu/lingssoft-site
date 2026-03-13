@@ -23,6 +23,7 @@ import { useThemeMode } from "context/ThemeModeContext";
 // DevOps sections
 import Themes from "pages/Items/DevOps/sections/Themes";
 import Revenue from "pages/Items/DevOps/sections/Revenue";
+import Header from "pages/Items/DevOps/sections/Header";
 
 const EcoAIDevOpsPlatform = () => {
   const { t } = useTranslation('solutions');
@@ -37,48 +38,7 @@ const EcoAIDevOpsPlatform = () => {
         light={isDark}
         transparent={false}
       />
-      <MKBox
-        minHeight="75vh"
-        width="100%"
-        sx={{
-          backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
-            `${linearGradient(
-              rgba(gradients.dark.main, 0.6),
-              rgba(gradients.dark.state, 0.6)
-            )}, url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80)`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          display: "grid",
-          placeItems: "center",
-        }}
-      >
-        <Container>
-          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
-            <MKTypography
-              variant="h1"
-              color="white"
-              mt={-6}
-              mb={1}
-              sx={({ breakpoints, typography: { size } }) => ({
-                [breakpoints.down("md")]: {
-                  fontSize: size["3xl"],
-                },
-              })}
-            >
-              {t('ai.title')}
-            </MKTypography>
-            <MKTypography
-              variant="body1"
-              color="white"
-              textAlign="center"
-              px={{ xs: 6, lg: 12 }}
-              mt={1}
-            >
-              {t('ai.description')}
-            </MKTypography>
-          </Grid>
-        </Container>
-      </MKBox>
+      <Header />
       <Card
         sx={{
           p: 2,

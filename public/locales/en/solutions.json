@@ -7,6 +7,43 @@
     "ai": {
         "title": "ECO AI DevOps Appliance",
         "description": "An on-premise specialized AI-driven DevOps solution promising sustainable energy efficiency and data security.",
+        "header": {
+            "slides": [
+                {
+                    "id": "energy",
+                    "label": "ECO Resource Management",
+                    "title": "A New Standard for Energy Efficiency",
+                    "description": "Minimize power consumption and realize digital carbon neutrality with cutting-edge technology.",
+                    "cards": [
+                        { "title": "Optimal Allocation", "description": "Intelligent allocation of resources" },
+                        { "title": "Low power", "description": "Reduce operating costs" },
+                        { "title": "Carbon Neutral", "description": "Support sustainable management" }
+                    ]
+                },
+                {
+                    "id": "security",
+                    "label": "On-premise Innovation",
+                    "title": "Perfect Security Environment",
+                    "description": "Thoroughly manage corporate data internally to guarantee robust information sovereignty.",
+                    "cards": [
+                        { "title": "Enhanced Security", "description": "Perfectly closed environment" },
+                        { "title": "Protection", "description": "Prevent leakage of core assets" },
+                        { "title": "Control", "description": "Data distribution transparency" }
+                    ]
+                },
+                {
+                    "id": "devops",
+                    "label": "AI-based DevOps",
+                    "title": "Maximizing Development Productivity",
+                    "description": "Helping developers focus on creativity by automating complex operations with AI.",
+                    "cards": [
+                        { "title": "Automation", "description": "Shorten pipeline construction" },
+                        { "title": "Speed", "description": "Accelerate deployment cycles" },
+                        { "title": "Quality", "description": "Stable service operation" }
+                    ]
+                }
+            ]
+        },
         "features": [
             "Energy Efficiency - ECO Resource Management",
             "Robust Data Sovereignty - On-premise",
