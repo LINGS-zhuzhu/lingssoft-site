@@ -35,9 +35,9 @@
                     "title": "开发生产力的极大化",
                     "description": "通过 AI 自动化复杂运维，助力开发人员专注于创新。",
                     "cards": [
-                        { "title": "自动化", "description": "缩短流水线构建" },
-                        { "title": "速度", "description": "加速交付周期" },
-                        { "title": "质量", "description": "稳定的业务运行" }
+                        { "title": "自动化", "description": "通过智能 AI 自动化重复的基础设施设置和构建流程，从而大幅缩短流水线的构建时间。" },
+                        { "title": "速度", "description": "通过优化的部署策略简化复杂的流程，加速产品的上市速度 (Time-to-Market)。" },
+                        { "title": "质量", "description": "通过基于 AI 的持续监控和自动化测试主动预防错误，确保业务的连续性和稳定性。" }
                     ]
                 }
             ]

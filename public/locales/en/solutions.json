@@ -36,9 +36,9 @@
                     "title": "Maximizing Development Productivity",
                     "description": "Helping developers focus on creativity by automating complex operations with AI.",
                     "cards": [
-                        { "title": "Automation", "description": "Shorten pipeline construction" },
-                        { "title": "Speed", "description": "Accelerate deployment cycles" },
-                        { "title": "Quality", "description": "Stable service operation" }
+                        { "title": "Automation", "description": "Intelligent AI automates repetitive infrastructure setup and build processes, dramatically reducing pipeline construction time." },
+                        { "title": "Speed", "description": "Simplifies complex procedures through optimized deployment strategies, accelerating the product's time-to-market." },
+                        { "title": "Quality", "description": "Prevents errors proactively through AI-driven continuous monitoring and automated testing, ensuring service continuity and stability." }
                     ]
                 }
             ]
