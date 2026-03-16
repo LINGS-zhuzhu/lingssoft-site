@@ -25,9 +25,9 @@
                     "title": "Perfect Security Environment",
                     "description": "Thoroughly manage corporate data internally to guarantee robust information sovereignty.",
                     "cards": [
-                        { "title": "Enhanced Security", "description": "Perfectly closed environment" },
-                        { "title": "Protection", "description": "Prevent leakage of core assets" },
-                        { "title": "Control", "description": "Data distribution transparency" }
+                        { "title": "Enhanced Security", "description": "Establishes an air-gap environment isolated from external networks to fundamentally block all abnormal access and intrusion threats." },
+                        { "title": "Protection", "description": "Provides powerful on-premise encryption and distribution control systems to prevent the leakage of core technologies and intellectual assets." },
+                        { "title": "Control", "description": "Ensures transparent management and complete control over data usage by tracking and visualizing all internal data flows in real-time." }
                     ]
                 },
                 {
