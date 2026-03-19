@@ -163,10 +163,77 @@
     "education": {
         "title": "EduTech Platform",
         "description": "A standalone online education system for freelance tutors. Own and manage student data and teaching materials directly without platform dependency.",
-        "features": [
-            "White-label Online Classroom",
-            "Local Learning Data Management System",
-            "Real-time Interactive Teaching Tools"
-        ]
+        "header": {
+            "slides": [
+                {
+                    "id": "branding",
+                    "label": "My Own Branded Education",
+                    "title": "White-label Online Classroom",
+                    "description": "Establish an educational environment with your unique brand, rather than the platform's logo, providing a professional experience for your students.",
+                    "cards": [
+                        { "title": "Brand Customization", "description": "Operate independent educational sites by setting your own logo, theme colors, and domain without being dependent on large platforms." },
+                        { "title": "Responsive Interface", "description": "Maximize student accessibility through a user experience optimized for all devices, including mobile and tablets." },
+                        { "title": "Instructor Dashboard", "description": "Easily handle complex operational tasks through an intuitive interface, from course setup to student management." }
+                    ]
+                },
+                {
+                    "id": "data",
+                    "label": "Ensure Data Sovereignty",
+                    "title": "Local Learning Data Management",
+                    "description": "Don't leave valuable teaching materials and student data to external clouds. Own and manage your data in a sovereignty-centric environment.",
+                    "cards": [
+                        { "title": "Strong Data Security", "description": "Fundamentally prevent data leakage to large platforms by isolating personal info and learning history locally." },
+                        { "title": "Autonomous Data Use", "description": "Freely extract and analyze accumulated learning data to provide customized learning prescriptions specialized for your students." },
+                        { "title": "Platform Independence", "description": "Permanently own and operate all built systems and data without worrying about platform policy changes or fee increases." }
+                    ]
+                },
+                {
+                    "id": "interaction",
+                    "label": "Maximize Learning Effects",
+                    "title": "Real-time Interactive Teaching Tools",
+                    "description": "Enhance learning efficiency by providing high-performance video class tools and two-way communication that feels just like in-person.",
+                    "cards": [
+                        { "title": "HD Video Lectures", "description": "Conduct high-quality two-way classes with dozens of students simultaneously using a low-latency high-performance media engine." },
+                        { "title": "Digital Writing System", "description": "Utilize real-time shared whiteboards and various writing tools to visually communicate and explain abstract concepts clearly." },
+                        { "title": "Real-time Participation", "description": "Increase student immersion and encourage active participation through various interactive features like quizzes and polls." }
+                    ]
+                }
+            ]
+        },
+        "themes": {
+           "branding": {
+               "title": "Independent Brand Strengthening",
+               "description": "Increase student loyalty and create differentiated educational value through a white-label platform reflecting the instructor's unique philosophy."
+           },
+           "data": {
+               "title": "Restoring Data Sovereignty",
+               "description": "Maintain the value of data by managing all learning records and content directly on local systems, reducing platform dependency."
+           },
+           "interaction": {
+               "title": "Innovating Interactive Experience",
+               "description": "Break the constraints of time and space using cutting-edge interactive technology to realize one-on-one customized learning environments."
+           }
+        },
+        "revenue": {
+           "title": "Sustainable Growth of Education",
+           "items": [
+                {
+                    "title": "Autonomous Business Model",
+                    "description": "Improve profitability through a commission-free independent system and freely explore various educational business ideas."
+                },
+                {
+                    "title": "Scalable System Architecture",
+                    "description": "Flexibly scale the system as the student base grows and immediately reflect the latest EdTech technologies."
+                },
+                {
+                    "title": "Specialized Operating Partnership",
+                    "description": "Beyond just providing a platform, we offer technical consulting and close support from dedicated engineers for a successful online environment."
+                },
+                {
+                    "title": "Reliable Education Partner",
+                    "description": "Based on stability and security proven in numerous fields, we create an environment where you can focus solely on the essence of education."
+                }
+           ]
+        }
     }
 }
